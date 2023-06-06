@@ -1,0 +1,26 @@
+String Comparison in JavaScrip
+4) console.log("7" > 7)
+console.log("2">"21")
+console.log("KL">"S")
+
+console.log("7" > 7);
+// Output: false
+// Explanation: The string "7" is coerced to a number before comparison.
+// The number 7 is not greater than 7, so the result is false.
+
+console.log("2" > "21");
+// Output: true
+// Explanation: When comparing strings, JavaScript compares them character by character based on their Unicode values.
+// The first character of "2" is "2", and the first character of "21" is also "2".
+// Since the second character of "2" is empty, it is considered less than "1".
+// Therefore, "2" is greater than "21" in terms of Unicode comparison, and the result is true.
+
+console.log("KL" > "S");
+// Output: false
+// Explanation: When comparing strings, JavaScript compares them character by character based on their Unicode values.
+// The first character of "KL" is "K", and the first character of "S" is "S".
+// In Unicode, "K" has a lower value than "S".
+// Therefore, "KL" is not greater than "S", and the result is false.
+
+
+
