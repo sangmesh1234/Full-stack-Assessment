@@ -12,7 +12,7 @@ var wordsToRemove = ['1', '2', '3'];
 var duplicates = [];
 var sameValues = [];
 
-// Find duplicates and same values
+ //Find duplicates and same values
 for (var i = 0; i < fullWordList.length; i++) {
   var word = fullWordList[i];
   
