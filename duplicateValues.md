@@ -1,8 +1,9 @@
 # duplicateValues
 find duplicate and same values in two array  
-head>
-    
-    <title>Duplicate Array</title>
+
+<!DOCTYPE html>
+<head>
+  <title>Duplicate Array</title>
 </head>
 <body>
     <script>
