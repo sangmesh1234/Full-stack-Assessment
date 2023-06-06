@@ -1,0 +1,31 @@
+longest-chain-of-letters-in-word-javascript
+const word = '00000111110101001111100001001'
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Longest Chain in world </title>
+</head>
+<body>
+    <Script>
+     const word = '00000111110101001111100001001';
+     const regex = /(1+|0+)/g;
+
+   // Find all consecutive sequences of 1s or 0s
+     const matches = word.match(regex);
+
+   // Find the longest sequence
+  let longestChain = '';
+  for (const match of matches) {
+  if (match.length > longestChain.length) {
+    longestChain = match;
+  }
+}
+
+console.log("Longest chain:", longestChain);
+
+ </Script>
+    
+</body>
+</html>
